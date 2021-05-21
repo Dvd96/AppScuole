@@ -2,4 +2,4 @@
 
 Welcome Screen: 
 
-![alt text](https://github.com/Dvd96/AppScuole/blob/main/Img/welcome.png)
+![Welcome Screen](https://github.com/Dvd96/AppScuole/blob/main/Img/welcome.png =300x300)
