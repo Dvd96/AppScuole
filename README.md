@@ -1,6 +1,6 @@
 # AppScuole
 
-Welcome Screen: 
+<h2>Welcome Screen:</h2> 
 
 <img src="https://github.com/Dvd96/AppScuole/blob/main/Img/welcome.png" alt="alt text" width="" height="700">
 
