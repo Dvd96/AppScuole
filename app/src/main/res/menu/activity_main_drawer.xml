@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/search"
+        android:title="Ricerca"
+        >
+        <menu>
+            <item
+                android:id="@+id/nome"
+                android:icon="@drawable/search"
+                android:title="Nome"
+                android:fontFamily="@font/headland_one"/>
+            <item
+                android:id="@+id/indirizzo"
+                android:icon="@drawable/oval82"
+                android:title="Mappa"
+                />
+            <item
+                android:id="@+id/caratteristiche"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Caratteristiche" />
+
+            <item
+                android:id="@+id/preferiti"
+                android:icon="@drawable/star"
+                android:title="Preferiti" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Questionario">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/comment"
+                android:title="Questionario"
+                app:fontFamily="@font/headland_one"/>
+        </menu>
+    </item>
+
+</menu>

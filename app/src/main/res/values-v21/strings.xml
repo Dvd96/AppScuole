@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nev_ricerca" />
+    <string name="questionario">questionario</string>
+    <string name="ricerca">ricerca</string>
+    <string name="nome">nome</string>
+    <string name="menu_caratteristiche">caratteristiche</string>
+    <string name="menu_indirizzo">indirizzo</string>
+    <string name="menu_questionario">questionario</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ProgettoScuole</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_ricerca">menu_ricerca</string>
+    <string name="menu_mappa">menu_mappa</string>
+    <string name="nev_ricerca" />
+    <string name="questionario">questionario</string>
+    <string name="ricerca">ricerca</string>
+    <string name="nome">nome</string>
+    <string name="menu_caratteristiche">caratteristiche</string>
+    <string name="menu_indirizzo">indirizzo</string>
+    <string name="menu_questionario">questionario</string>
+    <string name="title_activity_ricerca">Ricerca</string>
+    <string name="title_home">Nome</string>
+    <string name="title_dashboard">Indirizzo</string>
+    <string name="title_notifications">Caratteristiche</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Caratteristiche">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lv_caratteristiche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CADDFF"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:background="@drawable/mask">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="376dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="41dp"
+                    android:text="Ricerca per caratteristiche"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selezionaregione">
+
+                <Spinner
+                    android:id="@+id/regione_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <![CDATA[
+
+
+            />
+
+            ]]>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selezionaprovincia">
+
+
+                <Spinner
+                    android:id="@+id/provincia_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selezionacomune">
+
+
+                <Spinner
+                    android:id="@+id/comune_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selezionamateriaa">
+
+
+                <Spinner
+                    android:id="@+id/materia_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selezionatipo">
+
+
+                <Spinner
+                    android:id="@+id/tipologia_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="200sp"
+                android:layout_height="60sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/ricerca"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/bottonericerca_cara"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
