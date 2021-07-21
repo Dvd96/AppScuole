@@ -1,4 +1,3 @@
-#Writeup nel branch writeup
 # AppScuole
 
 <h2>Welcome Screen:</h2> 
